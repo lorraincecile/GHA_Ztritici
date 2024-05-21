@@ -6,3 +6,10 @@ This repository gathers the scripts that I have used to explore the genetic basi
 ## Data preparation
 
 SNP calling and filtering were performed as described in Feurtey et al., 2023 [[WW_PopGen](https://github.com/afeurtey/WW_PopGen?tab=readme-ov-file#data-preparation)].
+
+## Genome-host association mapping
+We performed a genome-host association (GHA) study based on GWAS using the host cultivar as a phenotype with a “one-versus-all” approach. We implemented a categorical GWAS by comparing strains sampled from a given wheat cultivar (phenotype 1) versus strains from the other 11 cultivars (phenotype 0). To avoid unbalanced sample sizes, each given group of samples (e.g. 64 strains from the cultivar Arina) was compared to an equal number of samples randomly selected from the rest of the collection. We repeated this random sub-sampling step 100 times. We applied this approach across all 12 hosts, generating a total of 1200 GWAS analyses run using [[vcf2gwas](https://github.com/frankvogt/vcf2gwas)]
+
+with a univariate linear mixed model Wald test. 
+
+Significant SNPs were corrected with the Bonferroni method by dividing 0.05 by the sum of unique variants analyzed.
