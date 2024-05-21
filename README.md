@@ -5,4 +5,4 @@ This repository gathers the scripts that I have used to explore the genetic basi
 
 ## Data preparation
 
-SNP calling and filtering were performed following [[Link text Here](https://github.com/afeurtey/WW_PopGen?tab=readme-ov-file#data-preparation)]
+SNP calling and filtering were performed as described in Feurtey et al., 2023 [[WW_PopGen](https://github.com/afeurtey/WW_PopGen?tab=readme-ov-file#data-preparation)].
