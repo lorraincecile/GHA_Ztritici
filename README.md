@@ -15,3 +15,4 @@ We applied this approach across all 12 hosts, generating a total of 1200 GWAS an
 The script for GHA visualization can be found [[here](Matrix_host_phenotypes)].
 
 ## Functional validation of GHA candidate genes
+The plasmids maps used for Z. tritici transformations in Genebank format are available [[here](plasmids_maps)].
