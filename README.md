@@ -12,6 +12,6 @@ We performed a genome-host association (GHA) study based on GWAS using the host 
 
 We applied this approach across all 12 hosts, generating a total of 1200 GWAS analyses run using [[vcf2gwas](https://github.com/frankvogt/vcf2gwas)], with a univariate linear mixed model Wald test. The script for GHA is available [[here](Matrix_host_phenotypes)], with example files. Significant SNPs were corrected with the Bonferroni method by dividing 0.05 by the sum of unique variants analyzed.
 
-The scripts for GHA visualization can be found [[here](Matrix_host_phenotypes)].
+The script for GHA visualization can be found [[here](Matrix_host_phenotypes)].
 
 ## Functional validation of GHA candidate genes
