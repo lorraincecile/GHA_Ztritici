@@ -1,5 +1,6 @@
-# GHA_Ztritici
+# Genome-Host Association (GHA) Analysis – Step-by-Step Guide
 ## Genome-host association approach for fungal pathogen genes involved in host specialisation
+This guide outlines the full GHA workflow from raw sequencing reads to candidate gene identification and downstream functional validation. It is designed for researchers investigating host specialization or cultivar-specific virulence factors in plant pathogens.
 
 This repository gathers the scripts that I have used to explore the genetic basis of host specialization in the wheat fungal pathogen *Zymoseptoria tritici*. The biorXiv version of the associated paper will be added. The link will be updated upon acceptance of the publication. 
 
