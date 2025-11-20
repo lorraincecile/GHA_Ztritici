@@ -1,0 +1,578 @@
+LOCUS       GE_DEL008-2_G07270_3D7G6706     11377 bp    DNA     circular UNA 
+FEATURES             Location/Qualifiers
+     misc_feature    join(10244..11377,1..144)
+                     /feature_type="Misc."
+                     /label="pCHYG_Kpn1-pstI_Backbone"
+     Region          1..26
+                     /label="LB"
+     Vector          join(4714..11377,1..144)
+                     /label="JA189_pCHYG"
+     primer_bind     50..69
+                     /label="pGEN F1"
+     primer_bind     50..69
+                     /note="Primer: AACACATTGCGGACGTTTTT"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other matches on
+                     GE_DEL008-2_G07270_3D7G6706: 0"
+                     /note="Primer binding region: 1184..1203"
+                     /label="s001F_pCGEN_F (mismatches: 0)"
+     misc_feature    108..144
+                     /feature_type="Primer Region"
+                     /note="Forward primer region"
+     primer_bind     125..140
+                     /label="pCGEN_IF"
+     Overhang        125..144
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank1 forward
+                     overhang"
+     primer_bind     145..162
+                     /note="Primer: CCTAACACTTTTGACGCC"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other matches on
+                     GE_DEL008_G07270_3D7G6706_NF: 0"
+                     /note="Primer binding region: 251..268"
+                     /label="GE_DEL008_G07270_3D1-3D7_Flank1_F_WO_Overhang
+                     (mismatches: 0)"
+     primer_bind     145..162
+                     /note="Primer: CCTAACACTTTTGACGCC"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other matches on
+                     GE_DEL008-2_G07270_3D7G6706_NF: 0"
+                     /note="Primer binding region: 251..268"
+                     /label="GE_DEL008_G07270_3D1-3D7_Flank1_F_WO_Overhang
+                     (mismatches: 0)"
+     Transcript      <145..622
+                     /source="ena"
+                     /gene_id="ZT3D7_G6705"
+                     /transcript_id="SMQ51552"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+                     /transcript_source="ena"
+                     /transcript_biotype="protein_coding"
+     misc_feature    <145..>1197
+                     /feature_type="PCR fragment"
+                     /note="Forward primer name:
+                     oGE057_DEL008_G07270_3D1-3D7_NF_F"
+                     /note="Forward primer: AATCACAGAAAGCCAACCC"
+                     /note="Forward primer misprimes: 0"
+                     /note="Reverse primer name:
+                     oGE058_DEL008_G07270_3D1-3D7_NF_R"
+                     /note="Reverse primer: TCATCGCACGTCTTGTCC"
+                     /note="Reverse primer misprimes: 0"
+                     /note="Fragment length: 2837"
+                     /label="Fragment (6 (oGE057_DEL008_G07270_3D1-3D7_NF_F -
+                     oGE058_DEL008_G07270_3D1-3D7_NF_R))"
+     misc_feature    join(145..162,163..1178,complement(1179..1197))
+                     /feature_type="PCR fragment"
+                     /note="Forward primer name:
+                     GE_DEL008_G07270_3D1-3D7_Flank1_F_WO_Overhang"
+                     /note="Forward primer: CCTAACACTTTTGACGCC"
+                     /note="Forward primer misprimes: 0"
+                     /note="Reverse primer name:
+                     GE_DEL008_G07270_3D1-3D7_Flank1_R_WO_Overhang"
+                     /note="Reverse primer: ACCCGATCTCTACCCTTAC"
+                     /note="Reverse primer misprimes: 0"
+                     /note="Fragment length: 1053"
+                     /label="Fragment (GE_DEL008-2_G07270_3D7G6706_NF
+                     (GE_DEL008_G07270_3D1-3D7_Flank1_F_WO_Overhang -
+                     GE_DEL008_G07270_3D1-3D7_Flank1_R_WO_Overhang))"
+     primer          145..162
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank1 forward primer"
+     mRNA            <145..622
+                     /source="ena"
+                     /gene_id="ZT3D7_G6705"
+                     /transcript_id="SMQ51552"
+                     /exon_number="1"
+                     /exon_number="2"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+                     /transcript_source="ena"
+                     /transcript_biotype="protein_coding"
+                     /exon_id="SMQ51552-1"
+                     /exon_id="SMQ51552-2"
+     Insert          145..1197
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank1"
+     CDS             <145..622
+                     /source="ena"
+                     /gene_id="ZT3D7_G6705"
+                     /transcript_id="SMQ51552"
+                     /exon_number="1"
+                     /exon_number="2"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+                     /transcript_source="ena"
+                     /transcript_biotype="protein_coding"
+                     /protein_id="SMQ51552"
+                     /frame="[697919..698164: 0, 698217..699056: 0,
+                     699057..699059: 0]"
+     gene            <145..622
+                     /source="ena"
+                     /gene_id="ZT3D7_G6705"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+     Transcript      complement(1149..>1197)
+                     /source="ena"
+                     /gene_id="ZT3D7_G6706"
+                     /transcript_id="SMQ51553"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+                     /transcript_source="ena"
+                     /transcript_biotype="protein_coding"
+     mRNA            complement(1149..>1197)
+                     /source="ena"
+                     /gene_id="ZT3D7_G6706"
+                     /transcript_id="SMQ51553"
+                     /exon_number="3"
+                     /exon_number="2"
+                     /exon_number="1"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+                     /transcript_source="ena"
+                     /transcript_biotype="protein_coding"
+                     /exon_id="SMQ51553-3"
+                     /exon_id="SMQ51553-2"
+                     /exon_id="SMQ51553-1"
+     CDS             complement(1149..>1197)
+                     /source="ena"
+                     /gene_id="ZT3D7_G6706"
+                     /transcript_id="SMQ51553"
+                     /exon_number="3"
+                     /exon_number="2"
+                     /exon_number="1"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+                     /transcript_source="ena"
+                     /transcript_biotype="protein_coding"
+                     /protein_id="SMQ51553"
+                     /frame="[complement(699586..699588): 0,
+                     complement(699589..699678): 0,
+                     complement(699756..699824): 0,
+                     complement(699883..699942): 0]"
+     gene            complement(1149..>1197)
+                     /source="ena"
+                     /gene_id="ZT3D7_G6706"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+     primer_bind     complement(1179..1197)
+                     /note="Primer: ACCCGATCTCTACCCTTAC"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other hits on
+                     GE_DEL008_G07270_3D7G6706_NF: 0"
+                     /note="Primer binding region: complement(1285..1303)"
+                     /label="GE_DEL008_G07270_3D1-3D7_Flank1_R_WO_Overhang
+                     (mismatches: 0)"
+     primer_bind     complement(1179..1197)
+                     /note="Primer: ACCCGATCTCTACCCTTAC"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other hits on
+                     GE_DEL008-2_G07270_3D7G6706_NF: 0"
+                     /note="Primer binding region: complement(1285..1303)"
+                     /label="GE_DEL008_G07270_3D1-3D7_Flank1_R_WO_Overhang
+                     (mismatches: 0)"
+     primer          complement(1179..1197)
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank1 reverse primer"
+     primer          1198..1220
+                     /label="F3_Hyg_Cassette forward primer"
+     terminator      <1198..1685
+                     /note="from pFC332 (Uffe Mortensen)"
+                     /label="Ttef1"
+     Overhang        complement(1198..1217)
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank1 reverse
+                     overhang"
+     Insert          1198..3665
+                     /label="F3_Hyg_Cassette"
+     primer          complement(1663..1708)
+                     /label="IF-Ttef_R"
+     primer_bind     complement(1689..1709)
+                     /note="Primer: GCTCCTTCAATATCAAAGCCG"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other hits on
+                     GE_DEL008-2_G07270_3D7G6706: 0"
+                     /note="Primer binding region: complement(2823..2843)"
+                     /label="s004R_TrpC_seq_R (mismatches: 0)"
+     primer          1689..1709
+                     /label="Hyg_uni_F"
+     promoter        1695..2046
+                     /label="pTrpc (A. nidulans)"
+     primer          complement(1996..2016)
+                     /label="HygProm_q_R2"
+     gene            2053..3078
+                     /label="HygR (from pES6)"
+     primer          2191..2210
+                     /label="Hyg_pES6_internal"
+     primer          complement(2378..2398)
+                     /label="HYG_pES6_seq_R3"
+     primer          2584..2603
+                     /label="RT_HygR"
+     primer          complement(2771..2790)
+                     /label="RT_HygF"
+     primer          2959..2979
+                     /label="HygF/ Hyg_pES6_seq_DF"
+     primer          complement(2959..2979)
+                     /label="Hyg_pES6_seq_DR"
+     primer          complement(3072..3094)
+                     /label="Hyg_uni_R"
+     primer          3075..3114
+                     /label="IF-TtrpC_F"
+     terminator      3095..3665
+                     /label="Ttrpc (A. nidulans, from pES1)"
+     primer_bind     3401..3422
+                     /note="Primer: CATGCTCCTCTTCTTTACTCTG"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other matches on
+                     GE_DEL008-2_G07270_3D7G6706: 0"
+                     /note="Primer binding region: 4535..4556"
+                     /label="s170F_Hygseq_WZ (mismatches: 0)"
+     primer_bind     complement(3644..3665)
+                     /note="Primer: TTCTGGGTAAACGACTCATAGG"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other hits on pLM1: 0"
+                     /note="Primer binding region: complement(9011..9032)"
+                     /label="155_TtrpC_R (mismatches: 0)"
+     primer          complement(3644..3665)
+                     /label="TrpC_R"
+     primer          complement(3644..>3665)
+                     /label="IF-TtrpC_R"
+     primer          complement(3644..3665)
+                     /label="F3_Hyg_Cassette reverse primer"
+     Overhang        3646..3665
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank2 forward
+                     overhang"
+     Site            3665..>3665
+                     /site_type="restriction site"
+                     /label="StuI"
+     primer_bind     3666..3684
+                     /note="Primer: CGGTAAACACATTAGGACA"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other matches on
+                     GE_DEL008_G07270_3D7G6706_NF: 0"
+                     /note="Primer binding region: 1497..1515"
+                     /label="GE_DEL008_G07270_3D1-3D7_Flank2_F_WO_Overhang
+                     (mismatches: 0)"
+     primer_bind     3666..3684
+                     /note="Primer: CGGTAAACACATTAGGACA"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other matches on
+                     GE_DEL008-2_G07270_3D7G6706_NF: 0"
+                     /note="Primer binding region: 1497..1515"
+                     /label="GE_DEL008_G07270_3D1-3D7_Flank2_F_WO_Overhang
+                     (mismatches: 0)"
+     Transcript      complement(<3666..3780)
+                     /source="ena"
+                     /gene_id="ZT3D7_G6706"
+                     /transcript_id="SMQ51553"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+                     /transcript_source="ena"
+                     /transcript_biotype="protein_coding"
+     misc_feature    <3666..>4713
+                     /feature_type="PCR fragment"
+                     /note="Forward primer name:
+                     oGE057_DEL008_G07270_3D1-3D7_NF_F"
+                     /note="Forward primer: AATCACAGAAAGCCAACCC"
+                     /note="Forward primer misprimes: 0"
+                     /note="Reverse primer name:
+                     oGE058_DEL008_G07270_3D1-3D7_NF_R"
+                     /note="Reverse primer: TCATCGCACGTCTTGTCC"
+                     /note="Reverse primer misprimes: 0"
+                     /note="Fragment length: 2837"
+                     /label="Fragment (6 (oGE057_DEL008_G07270_3D1-3D7_NF_F -
+                     oGE058_DEL008_G07270_3D1-3D7_NF_R))"
+     misc_feature    join(3666..3684,3685..4695,complement(4696..4713))
+                     /feature_type="PCR fragment"
+                     /note="Forward primer name:
+                     GE_DEL008_G07270_3D1-3D7_Flank2_F_WO_Overhang"
+                     /note="Forward primer: CGGTAAACACATTAGGACA"
+                     /note="Forward primer misprimes: 0"
+                     /note="Reverse primer name:
+                     GE_DEL008_G07270_3D1-3D7_Flank2_R_WO_Overhang"
+                     /note="Reverse primer: AAGACAGGTAGAGCAAGA"
+                     /note="Reverse primer misprimes: 0"
+                     /note="Fragment length: 1048"
+                     /label="Fragment (GE_DEL008-2_G07270_3D7G6706_NF
+                     (GE_DEL008_G07270_3D1-3D7_Flank2_F_WO_Overhang -
+                     GE_DEL008_G07270_3D1-3D7_Flank2_R_WO_Overhang))"
+     primer          3666..3684
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank2 forward primer"
+     Insert          3666..4713
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank2"
+     gene            complement(<3666..3780)
+                     /source="ena"
+                     /gene_id="ZT3D7_G6706"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+     mRNA            complement(3721..3780)
+                     /source="ena"
+                     /gene_id="ZT3D7_G6706"
+                     /transcript_id="SMQ51553"
+                     /exon_number="3"
+                     /exon_number="2"
+                     /exon_number="1"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+                     /transcript_source="ena"
+                     /transcript_biotype="protein_coding"
+                     /exon_id="SMQ51553-3"
+                     /exon_id="SMQ51553-2"
+                     /exon_id="SMQ51553-1"
+     CDS             complement(3721..3780)
+                     /source="ena"
+                     /gene_id="ZT3D7_G6706"
+                     /transcript_id="SMQ51553"
+                     /exon_number="3"
+                     /exon_number="2"
+                     /exon_number="1"
+                     /gene_source="ena"
+                     /gene_biotype="protein_coding"
+                     /transcript_source="ena"
+                     /transcript_biotype="protein_coding"
+                     /protein_id="SMQ51553"
+                     /frame="[complement(699586..699588): 0,
+                     complement(699589..699678): 0,
+                     complement(699756..699824): 0,
+                     complement(699883..699942): 0]"
+     primer_bind     complement(4696..4713)
+                     /note="Primer: AAGACAGGTAGAGCAAGA"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other hits on
+                     GE_DEL008_G07270_3D7G6706_NF: 0"
+                     /note="Primer binding region: complement(2527..2544)"
+                     /label="GE_DEL008_G07270_3D1-3D7_Flank2_R_WO_Overhang
+                     (mismatches: 0)"
+     primer_bind     complement(4696..4713)
+                     /note="Primer: AAGACAGGTAGAGCAAGA"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other hits on
+                     GE_DEL008-2_G07270_3D7G6706_NF: 0"
+                     /note="Primer binding region: complement(2527..2544)"
+                     /label="GE_DEL008_G07270_3D1-3D7_Flank2_R_WO_Overhang
+                     (mismatches: 0)"
+     primer          complement(4696..4713)
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank2 reverse primer"
+     primer_bind     complement(4714..4733)
+                     /label="Infusion Binding site"
+     Overhang        complement(4714..4733)
+                     /label="GE_DEL008-2_G07270_3D7G6706_Flank2 reverse
+                     overhang"
+     misc_feature    4714..10243
+                     /feature_type="Misc."
+                     /label="pCHYG_Kpn1-pstI_Backbone"
+     misc_feature    complement(4714..4748)
+                     /feature_type="Primer Region"
+                     /note="Reverse primer region"
+     primer_bind     complement(4794..4814)
+                     /label="pCGEN_R_Seq"
+     primer_bind     complement(4794..4814)
+                     /note="Primer: CGAGCTGGTCACCTGTAATTC"
+                     /note="Number of mismatches: 0"
+                     /note="Number of other hits on
+                     GE_DEL008-2_G07270_3D7G6706: 0"
+                     /note="Primer binding region: complement(5928..5948)"
+                     /label="s002R_pCGEN_R (mismatches: 0)"
+     Region          5117..5142
+                     /label="RB"
+     Region          6184..7184
+                     /label="STA"
+     Region          7778..8778
+                     /label="VS1 Ori"
+     Region          9188..9448
+                     /label="Bom"
+     Region          9588..9868
+                     /label="pBR322 Ori"
+     gene            complement(10244..10953)
+                     /label="Kanamycin Resistance"
+     primer_bind     11151..11168
+                     /label="pES1_seq_LB"
+     primer_bind     11303..11322
+                     /label="pES1_FP1"
+ORIGIN
+        1 TGGCAGGATA TATTGTGGTG TAAACAAATT GACGCTTAGA CAACTTAATA ACACATTGCG
+       61 GACGTTTTTA ATGTACTGAA TTAACGCCGA ATTAATTCCT AGGCCACCAT GTTGGGCCCG
+      121 GCGCGCCGAA TTCGAGCTCG GTACCCTAAC ACTTTTGACG CCAGCTCAAC TGCAGAATCC
+      181 GGCAAAGTTC GGAGCTCTCG CCCCAGGATA TCTGGCATTC GGCTCCAGCG TAGGCAAGCG
+      241 AAATTCCTAC TACGCCGAAG ACGATTCCTT CAGCGCAGCG CTAGCGCAGT GGGACTTTGA
+      301 CCACCAGGAC ACCATCACCG TGGGCCAAAT CGTGACGGCG TTCAGTGGTC TCCAGCGAGC
+      361 TGATCAGTTC CGCGGCGACG TGCTGGCGCT GACCGGCAGT GATGATGCCT TCTTCTGTGG
+      421 TCCTACCGGT ACTCGTGCTC TCGGACCTCA GTCTTGTGGG ACAGGCGAGG AGAGCATACC
+      481 GGCCAAGAGC AAGTCTTTCT TCCCGGTGGC GAATTTCGAG TACTATCTGG CTCCCAACAC
+      541 TTCACATGCT ACTACGCTTC ACTATTCAAC GCCGGATAGC ATTTGCGAAG CTCACGACTT
+      601 CTTGGCGAGG AACGGCTATT AGGTTCGTCT GGGATTCCGG TTGATGGCCG CCCCTAGTTG
+      661 TGTCAGAGAC CAGGCGGACA GCGTTCGCAA GCAGAGGCAC AATTATGCTC GAGAAGCGCC
+      721 GGGCGAGGAC TCGAGGTCCA ACACTCCCCA TCATTTAAGT AGGTAAACAT CGCATTCCTA
+      781 TACGCTCGGT TCCGCTCTCT CAATCATACT CATGGGCCAC AACCACCGTG AACAACAACA
+      841 GAATTGCGGT CAGGGTTGTG CTAACCGAAA CGTGGTCAAA GGTTAACAAA CCCATGTTGG
+      901 TGTGAAACCA GGGGAACGAG AGTATGAGAG CATGAATATT CGATAACAAG AGCCTTGTGT
+      961 TTGACTAGTT CGCGACAGGC TGACGAGCAA AGGGCGATGC CCGCCGCTTC CCTTGCTCTA
+     1021 CTCTGTCGAA CCGGCAAGGA GTGCATTAAA TACAAATGTG ACAGTAATGA CCGTGGGGGA
+     1081 GATTGACATT GCAGGAGGAA CCTCGGAGAA CAACCATGTA TTGAGTGCAC CATGCACACA
+     1141 ATACTCTCTC AAGATTCTCC CCAGTGGACG CAATCCGCGT AAGGGTAGAG ATCGGGTCGG
+     1201 ACATTCGATT TATGCCGTTA TGACTTCCTT AAAAAAGCCT TTACGAATGA AAGAAATGGA
+     1261 ATTAGACTTG TTATGTAGTT GATTCTACAA TGGATTATGA TTCCTGAACT TCAAATCCGC
+     1321 TGTTCATTAT TAATCTCAGC TCTTCCCGTA AAGCCAATGT TGAAACTATT CGTAAATGTA
+     1381 CCTCGTTTTG CGTGTACCTT GCTTATCACG TGATATTACA TGACCTGGAC AGAGTTCTGC
+     1441 GCGAAAGTCA TAACGTAAAT CCCGGGCGGT AGGTGCGTCC CGGGCGGAAG GTAGTTTTCT
+     1501 CGTCCACCCC AACGCGTTTA TCAACCTCAA CTTTCAACAA CCATCATGCC ACCAAAAGCG
+     1561 CGTAAAACAA AGCGAGATTT GATTGAGCAA GAGGGCAGGA TCCAATGCGC GATTCAAGAC
+     1621 ATTAAAAATG GAAAATTTCA AAAAATTGCG CCCGCAGCGC GTGCATACAA AATTCATCCC
+     1681 AATACGTACG GCTTTGATAT TGAAGGAGCA TTTTTTGGGC TTGGCTGGAG CTAGTGGAGG
+     1741 TCAACAATGA ATGCCTATTT TGGTTTAGTC GTCCAGGCGG TGAGCACAAA ATTTGTGTCG
+     1801 TTTGACAAGA TGGTTCATTT AGGCAACTGG TCAGATCAGC CCCACTTGTA GCAGTAGCGG
+     1861 CGGCGCTCGA AGTGTGACTC TTATTAGCAG ACAGGAACGA GGACATTATT ATCATCTGCT
+     1921 GCTTGGTGCA CGATAACTTG GTGCGTTTGT CAAGCAAGGT AAGTGGACGA CCCGGTCATA
+     1981 CCTTCTTAAG TTCGCCCTTC CTCCCTTTAT TTCAGATTCA ATCTGACTTA CCTATTCTAC
+     2041 CCAAGCATCC AAATGAAAAA GCCTGAACTC ACCGCGACGT CTGTCGAGAA GTTTCTGATC
+     2101 GAAAAGTTCG ACAGCGTCTC CGACCTGATG CAGCTCTCGG AGGGCGAAGA ATCTCGTGCT
+     2161 TTCAGCTTCG ATGTAGGAGG GCGTGGATAT GTCCTGCGGG TAAATAGCTG CGCCGATGGT
+     2221 TTCTACAAAG ATCGTTATGT TTATCGGCAC TTTGCATCGG CCGCGCTCCC GATTCCGGAA
+     2281 GTGCTTGACA TTGGGGAGTT CAGCGAGAGC CTGACCTATT GCATCTCCCG CCGTGCACAG
+     2341 GGTGTCACGT TGCAAGACCT GCCTGAAACC GAACTGCCCG CTGTTCTCCA GCCGGTCGCG
+     2401 GAGGCCATGG ATGCGATCGC TGCGGCCGAT CTTAGCCAGA CGAGCGGGTT CGGCCCATTC
+     2461 GGACCGCAAG GAATCGGTCA ATACACTACA TGGCGTGATT TCATATGCGC GATTGCTGAT
+     2521 CCCCATGTGT ATCACTGGCA AACTGTGATG GACGACACCG TCAGTGCGTC CGTCGCGCAG
+     2581 GCTCTCGATG AGCTGATGCT TTGGGCCGAG GACTGCCCCG AAGTCCGGCA CCTCGTGCAT
+     2641 GCGGATTTCG GCTCCAACAA TGTCCTGACG GACAATGGCC GCATAACAGC GGTCATTGAC
+     2701 TGGAGCGAGG CGATGTTCGG GGATTCCCAA TACGAGGTCG CCAACATCCT CTTCTGGAGG
+     2761 CCGTGGTTGG CTTGTATGGA GCAGCAGACG CGCTACTTCG AGCGGAGGCA TCCGGAGCTT
+     2821 GCAGGATCGC CGCGCCTCCG GGCGTATATG CTCCGCATTG GTCTTGACCA ACTCTATCAG
+     2881 AGCTTGGTTG ACGGCAATTT CGATGATGCA GCTTGGGCGC AGGGTCGATG CGACGCAATC
+     2941 GTCCGATCCG GAGCCGGGAC TGTCGGGCGT ACACAAATCG CCCGCAGAAG CGCGGCCGTC
+     3001 TGGACCGATG GCTGTGTAGA AGTACTCGCC GATAGTGGAA ACCGACGCCC CAGCACTCGT
+     3061 CCGAGGGCAA AGGAATAGAG ATCTGCTAGC CATCGTTCAT TTGTCCAAGC AGCAAAGAGT
+     3121 GCCTTCTAGT GATTTAATAG CTCCATGTCA ACAAGAATAA AACGCGTTTC GGGTTTACCT
+     3181 CTTCCAGATA CAGCTCATCT GCAATGCATT AATGCATTGG ACCTCGCAAC CCTAGTACGC
+     3241 CCTTCAGGCT CCGGCGAAGC AGAAGAATAG CTTAGCAGAG TCTATTTTCA TTTTCGGGAG
+     3301 ACGAGATCAA GCAGATCAAC GGTCGTCAAG AGACCTACGA GACTGAGGAA TCCGCTCTTG
+     3361 GCTCCACGCG ACTATATATT TGTCTCTAAT TGTACTTTGA CATGCTCCTC TTCTTTACTC
+     3421 TGATAGCTTG ACTATGAAAA TTCCGTCACC AGCCCCTGGG TTCGCAAAGA TAATTGCACT
+     3481 GTTTCTTCCT TGAACTCTCA AGCCTACAGG ACACACATTC ATCGTAGGTA TAAACCTCGA
+     3541 AAATCATTCC TACTAAGATG GGTATACAAT AGTAACCATG CATGGTTGCC TAGTGAATGC
+     3601 TCCGTAACAC CCAATACGCC GGCCGAAACT TTTTTACAAC TCTCCTATGA GTCGTTTACC
+     3661 CAGAACGGTA AACACATTAG GACATCGGTG GGAGGAGCTG GGAAGAGCAA GGAAGCTTAC
+     3721 GGCGAAGGCG GTCGTCGCCA TGGCGAGGGT GACGAGCAGC TGGAGGATTT TCTTCTGCAT
+     3781 GGTGTTGATG TGACGGGACG TGTATGTCTG ATGTCGTCTG AAGGATGTGT GCGGCTTTGA
+     3841 TCAATTGGTC TGATGTTCTG GTCGGTCGAT AAGAGACGAA GGATCGATCG AGGAGGGAAC
+     3901 GGTTGACTTA TAATACCAGT TGGGCCAGTC AGAGCCAGGC TATGTGCTGT CCTCTCCCTC
+     3961 GTCATGTGGG TTTCCCAACA TAGTATTTGT CCGCCGGTGC CGACTGATCG GCGCGATTGA
+     4021 CTGGGTGGTC ACCTGTACGT CGAGCAGGTG TACGCATACA AGTGCTGTTC GCCCGGTCCT
+     4081 GGTCCCGAGA TGAAAGACCT ATTTTAAAGG AAACAAACCA ATTTGATTGG CGCGAATTAC
+     4141 TGGGTGGTGG CCTGAACGTG GAGCATGTGG ACGCATCGGA GTGCTCATGG TGATCCTAGT
+     4201 CTGACTTGAA ACACCATTTG CAAGGAGAAC CATACTCGAG ACCCAACTGC CTGAACGTGA
+     4261 GGAGGAAGGT GTTGGATTGT AACTTGGCTC TTTGTGGTGC GTCGTTTTAT CGTAGCGTGA
+     4321 GGCTGAGTGG TCGGAGGGTC GATATGTTGG ACGCACTCAA GTTTCAGAAA CGACAGGGGC
+     4381 AAGGGCCGAG CGGTAGGCTT TGTGGATGAG GAAGCATCAA GTGCTGTCAT ATATCTCGTC
+     4441 ATCAGAGCGG TTTGCCATCG GAGCCGGATG TGGAGGAAAG CTCGAAATGG TGCCATGGTC
+     4501 GATGTTACGT TTCGTGGCAT TCCGCGCACC GGGTCAGCCA TGTTACGCTT GCATTGCAGC
+     4561 TTGCTACTGT AGTATTGGGC TCCAGCACTT GCTCATGGCT GATGGCCTGA TCGACAAATT
+     4621 TGTCCCTAAA CATGTTCGTC GGCCTGCATG GTGGATAAAC ACTGAGAAAA ATGTACACGC
+     4681 CTCGCACGAG TGGGATCTTG CTCTACCTGT CTTGGCATGC AAGCTTTAAG AGGAGTCCAC
+     4741 CATGGTAGAT CTGACTAGTG TTAACGCTAG CCACCACCAC CACCACCACG TGTGAATTAC
+     4801 AGGTGACCAG CTCGAATTTC CCCGATCGTT CAAACATTTG GCAATAAAGT TTCTTAAGAT
+     4861 TGAATCCTGT TGCCGGTCTT GCGATGATTA TCATATAATT TCTGTTGAAT TACGTTAAGC
+     4921 ATGTAATAAT TAACATGTAA TGCATGACGT TATTTATGAG ATGGGTTTTT ATGATTAGAG
+     4981 TCCCGCAATT ATACATTTAA TACGCGATAG AAAACAAAAT ATAGCGCGCA AACTAGGATA
+     5041 AATTATCGCG CGCGGTGTCA TCTATGTTAC TAGATCGGGA ATTAAACTAT CAGTGTTTGA
+     5101 CAGGATATAT TGGCGGGTAA ACCTAAGAGA AAAGAGCGTT TATTAGAATA ATCGGATATT
+     5161 TAAAAGGGCG TGAAAAGGTT TATCCGTTCG TCCATTTGTA TGTGCATGCC AACCACAGGG
+     5221 TTCCCCTCGG GATCAAAGTA CTTTGATCCA ACCCCTCCGC TGCTATAGTG CAGTCGGCTT
+     5281 CTGACGTTCA GTGCAGCCGT CTTCTGAAAA CGACATGTCG CACAAGTCCT AAGTTACGCG
+     5341 ACAGGCTGCC GCCCTGCCCT TTTCCTGGCG TTTTCTTGTC GCGTGTTTTA GTCGCATAAA
+     5401 GTAGAATACT TGCGACTAGA ACCGGAGACA TTACGCCATG AACAAGAGCG CCGCCGCTGG
+     5461 CCTGCTGGGC TATGCCCGCG TCAGCACCGA CGACCAGGAC TTGACCAACC AACGGGCCGA
+     5521 ACTGCACGCG GCCGGCTGCA CCAAGCTGTT TTCCGAGAAG ATCACCGGCA CCAGGCGCGA
+     5581 CCGCCCGGAG CTGGCCAGGA TGCTTGACCA CCTACGCCCT GGCGACGTTG TGACAGTGAC
+     5641 CAGGCTAGAC CGCCTGGCCC GCAGCACCCG CGACCTACTG GACATTGCCG AGCGCATCCA
+     5701 GGAGGCCGGC GCGGGCCTGC GTAGCCTGGC AGAGCCGTGG GCCGACACCA CCACGCCGGC
+     5761 CGGCCGCATG GTGTTGACCG TGTTCGCCGG CATTGCCGAG TTCGAGCGTT CCCTAATCAT
+     5821 CGACCGCACC CGGAGCGGGC GCGAGGCCGC CAAGGCCCGA GGCGTGAAGT TTGGCCCCCG
+     5881 CCCTACCCTC ACCCCGGCAC AGATCGCGCA CGCCCGCGAG CTGATCGACC AGGAAGGCCG
+     5941 CACCGTGAAA GAGGCGGCTG CACTGCTTGG CGTGCATCGC TCGACCCTGT ACCGCGCACT
+     6001 TGAGCGCAGC GAGGAAGTGA CGCCCACCGA GGCCAGGCGG CGCGGTGCCT TCCGTGAGGA
+     6061 CGCATTGACC GAGGCCGACG CCCTGGCGGC CGCCGAGAAT GAACGCCAAG AGGAACAAGC
+     6121 ATGAAACCGC ACCAGGACGG CCAGGACGAA CCGTTTTTCA TTACCGAAGA GATCGAGGCG
+     6181 GAGATGATCG CGGCCGGGTA CGTGTTCGAG CCGCCCGCGC ACGTCTCAAC CGTGCGGCTG
+     6241 CATGAAATCC TGGCCGGTTT GTCTGATGCC AAGCTGGCGG CCTGGCCGGC CAGCTTGGCC
+     6301 GCTGAAGAAA CCGAGCGCCG CCGTCTAAAA AGGTGATGTG TATTTGAGTA AAACAGCTTG
+     6361 CGTCATGCGG TCGCTGCGTA TATGATGCGA TGAGTAAATA AACAAATACG CAAGGGGAAC
+     6421 GCATGAAGGT TATCGCTGTA CTTAACCAGA AAGGCGGGTC AGGCAAGACG ACCATCGCAA
+     6481 CCCATCTAGC CCGCGCCCTG CAACTCGCCG GGGCCGATGT TCTGTTAGTC GATTCCGATC
+     6541 CCCAGGGCAG TGCCCGCGAT TGGGCGGCCG TGCGGGAAGA TCAACCGCTA ACCGTTGTCG
+     6601 GCATCGACCG CCCGACGATT GACCGCGACG TGAAGGCCAT CGGCCGGCGC GACTTCGTAG
+     6661 TGATCGACGG AGCGCCCCAG GCGGCGGACT TGGCTGTGTC CGCGATCAAG GCAGCCGACT
+     6721 TCGTGCTGAT TCCGGTGCAG CCAAGCCCTT ACGACATATG GGCCACCGCC GACCTGGTGG
+     6781 AGCTGGTTAA GCAGCGCATT GAGGTCACGG ATGGAAGGCT ACAAGCGGCC TTTGTCGTGT
+     6841 CGCGGGCGAT CAAAGGCACG CGCATCGGCG GTGAGGTTGC CGAGGCGCTG GCCGGGTACG
+     6901 AGCTGCCCAT TCTTGAGTCC CGTATCACGC AGCGCGTGAG CTACCCAGGC ACTGCCGCCG
+     6961 CCGGCACAAC CGTTCTTGAA TCAGAACCCG AGGGCGACGC TGCCCGCGAG GTCCAGGCGC
+     7021 TGGCCGCTGA AATTAAATCA AAACTCATTT GAGTTAATGA GGTAAAGAGA AAATGAGCAA
+     7081 AAGCACAAAC ACGCTAAGTG CCGGCCGTCC GAGCGCACGC AGCAGCAAGG CTGCAACGTT
+     7141 GGCCAGCCTG GCAGACACGC CAGCCATGAA GCGGGTCAAC TTTCAGTTGC CGGCGGAGGA
+     7201 TCACACCAAG CTGAAGATGT ACGCGGTACG CCAAGGCAAG ACCATTACCG AGCTGCTATC
+     7261 TGAATACATC GCGCAGCTAC CAGAGTAAAT GAGCAAATGA ATAAATGAGT AGATGAATTT
+     7321 TAGCGGCTAA AGGAGGCGGC ATGGAAAATC AAGAACAACC AGGCACCGAC GCCGTGGAAT
+     7381 GCCCCATGTG TGGAGGAACG GGCGGTTGGC CAGGCGTAAG CGGCTGGGTT GCCTGCCGGC
+     7441 CCTGCAATGG CACTGGAACC CCCAAGCCCG AGGAATCGGC GTGAGCGGTC GCAAACCATC
+     7501 CGGCCCGGTA CAAATCGGCG CGGCGCTGGG TGATGACCTG GTGGAGAAGT TGAAGGCCGC
+     7561 GCAGGCCGCC CAGCGGCAAC GCATCGAGGC AGAAGCACGC CCCGGTGAAT CGTGGCAAGC
+     7621 GGCCGCTGAT CGAATCCGCA AAGAATCCCG GCAACCGCCG GCAGCCGGTG CGCCGTCGAT
+     7681 TAGGAAGCCG CCCAAGGGCG ACGAGCAACC AGATTTTTTC GTTCCGATGC TCTATGACGT
+     7741 GGGCACCCGC GATAGTCGCA GCATCATGGA CGTGGCCGTT TTCCGTCTGT CGAAGCGTGA
+     7801 CCGACGAGCT GGCGAGGTGA TCCGCTACGA GCTTCCAGAC GGGCACGTAG AGGTTTCCGC
+     7861 AGGGCCGGCC GGCATGGCCA GTGTGTGGGA TTACGACCTG GTACTGATGG CGGTTTCCCA
+     7921 TCTAACCGAA TCCATGAACC GATACCGGGA AGGGAAGGGA GACAAGCCCG GCCGCGTGTT
+     7981 CCGTCCACAC GTTGCGGACG TACTCAAGTT CTGCCGGCGA GCCGATGGCG GAAAGCAGAA
+     8041 AGACGACCTG GTAGAAACCT GCATTCGGTT AAACACCACG CACGTTGCCA TGCAGCGTAC
+     8101 GAAGAAGGCC AAGAACGGCC GCCTGGTGAC GGTATCCGAG GGTGAAGCCT TGATTAGCCG
+     8161 CTACAAGATC GTAAAGAGCG AAACCGGGCG GCCGGAGTAC ATCGAGATCG AGCTAGCTGA
+     8221 TTGGATGTAC CGCGAGATCA CAGAAGGCAA GAACCCGGAC GTGCTGACGG TTCACCCCGA
+     8281 TTACTTTTTG ATCGATCCCG GCATCGGCCG TTTTCTCTAC CGCCTGGCAC GCCGCGCCGC
+     8341 AGGCAAGGCA GAAGCCAGAT GGTTGTTCAA GACGATCTAC GAACGCAGTG GCAGCGCCGG
+     8401 AGAGTTCAAG AAGTTCTGTT TCACCGTGCG CAAGCTGATC GGGTCAAATG ACCTGCCGGA
+     8461 GTACGATTTG AAGGAGGAGG CGGGGCAGGC TGGCCCGATC CTAGTCATGC GCTACCGCAA
+     8521 CCTGATCGAG GGCGAAGCAT CCGCCGGTTC CTAATGTACG GAGCAGATGC TAGGGCAAAT
+     8581 TGCCCTAGCA GGGGAAAAAG GTCGAAAAGG TCTCTTTCCT GTGGATAGCA CGTACATTGG
+     8641 GAACCCAAAG CCGTACATTG GGAACCGGAA CCCGTACATT GGGAACCCAA AGCCGTACAT
+     8701 TGGGAACCGG TCACACATGT AAGTGACTGA TATAAAAGAG AAAAAAGGCG ATTTTTCCGC
+     8761 CTAAAACTCT TTAAAACTTA TTAAAACTCT TAAAACCCGC CTGGCCTGTG CATAACTGTC
+     8821 TGGCCAGCGC ACAGCCGAAG AGCTGCAAAA AGCGCCTACC CTTCGGTCGC TGCGCTCCCT
+     8881 ACGCCCCGCC GCTTCGCGTC GGCCTATCGC GGCCGCTGGC CGCTCAAAAA TGGCTGGCCT
+     8941 ACGGCCAGGC AATCTACCAG GGCGCGGACA AGCCGCGCCG TCGCCACTCG ACCGCCGGCG
+     9001 CCCACATCAA GGCACCCTGC CTCGCGCGTT TCGGTGATGA CGGTGAAAAC CTCTGACACA
+     9061 TGCAGCTCCC GGAGACGGTC ACAGCTTGTC TGTAAGCGGA TGCCGGGAGC AGACAAGCCC
+     9121 GTCAGGGCGC GTCAGCGGGT GTTGGCGGGT GTCGGGGCGC AGCCATGACC CAGTCACGTA
+     9181 GCGATAGCGG AGTGTATACT GGCTTAACTA TGCGGCATCA GAGCAGATTG TACTGAGAGT
+     9241 GCACCATATG CGGTGTGAAA TACCGCACAG ATGCGTAAGG AGAAAATACC GCATCAGGCG
+     9301 CTCTTCCGCT TCCTCGCTCA CTGACTCGCT GCGCTCGGTC GTTCGGCTGC GGCGAGCGGT
+     9361 ATCAGCTCAC TCAAAGGCGG TAATACGGTT ATCCACAGAA TCAGGGGATA ACGCAGGAAA
+     9421 GAACATGTGA GCAAAAGGCC AGCAAAAGGC CAGGAACCGT AAAAAGGCCG CGTTGCTGGC
+     9481 GTTTTTCCAT AGGCTCCGCC CCCCTGACGA GCATCACAAA AATCGACGCT CAAGTCAGAG
+     9541 GTGGCGAAAC CCGACAGGAC TATAAAGATA CCAGGCGTTT CCCCCTGGAA GCTCCCTCGT
+     9601 GCGCTCTCCT GTTCCGACCC TGCCGCTTAC CGGATACCTG TCCGCCTTTC TCCCTTCGGG
+     9661 AAGCGTGGCG CTTTCTCATA GCTCACGCTG TAGGTATCTC AGTTCGGTGT AGGTCGTTCG
+     9721 CTCCAAGCTG GGCTGTGTGC ACGAACCCCC CGTTCAGCCC GACCGCTGCG CCTTATCCGG
+     9781 TAACTATCGT CTTGAGTCCA ACCCGGTAAG ACACGACTTA TCGCCACTGG CAGCAGCCAC
+     9841 TGGTAACAGG ATTAGCAGAG CGAGGTATGT AGGCGGTGCT ACAGAGTTCT TGAAGTGGTG
+     9901 GCCTAACTAC GGCTACACTA GAAGGACAGT ATTTGGTATC TGCGCTCTGC TGAAGCCAGT
+     9961 TACCTTCGGA AAAAGAGTTG GTAGCTCTTG ATCCGGCAAA CAAACCACCG CTGGTAGCGG
+    10021 TGGTTTTTTT GTTTGCAAGC AGCAGATTAC GCGCAGAAAA AAAGGATCTC AAGAAGATCC
+    10081 TTTGATCTTT TCTACGGGGT CTGACGCTCA GTGGAACGAA AACTCACGTT AAGGGATTTT
+    10141 GGTCATGCAT TCTAGGTACT AAAACAATTC ATCCAGTAAA ATATAATATT TTATTTTCTC
+    10201 CCAATCAGGC TTGATCCCCA GTAAGTCAAA AAATAGCTCG ACATACTGTT CTTCCCCGAT
+    10261 ATCCTCCCTG ATCGACCGGA CGCAGAAGGC AATGTCATAC CACTTGTCCG CCCTGCCGCT
+    10321 TCTCCCAAGA TCAATAAAGC CACTTACTTT GCCATCTTTC ACAAAGATGT TGCTGTCTCC
+    10381 CAGGTCGCCG TGGGAAAAGA CAAGTTCCTC TTCGGGCTTT TCCGTCTTTA AAAAATCATA
+    10441 CAGCTCGCGC GGATCTTTAA ATGGAGTGTC TTCTTCCCAG TTTTCGCAAT CCACATCGGC
+    10501 CAGATCGTTA TTCAGTAAGT AATCCAATTC GGCTAAGCGG CTGTCTAAGC TATTCGTATA
+    10561 GGGACAATCC GATATGTCGA TGGAGTGAAA GAGCCTGATG CACTCCGCAT ACAGCTCGAT
+    10621 AATCTTTTCA GGGCTTTGTT CATCTTCATA CTCTTCCGAG CAAAGGACGC CATCGGCCTC
+    10681 ACTCATGAGC AGATTGCTCC AGCCATCATG CCGTTCAAAG TGCAGGACCT TTGGAACAGG
+    10741 CAGCTTTCCT TCCAGCCATA GCATCATGTC CTTTTCCCGT TCCACATCAT AGGTGGTCCC
+    10801 TTTATACCGG CTGTCCGTCA TTTTTAAATA TAGGTTTTCA TTTTCTCCCA CCAGCTTATA
+    10861 TACCTTAGCA GGAGACATTC CTTCCGTATC TTTTACGCAG CGGTATTTTT CGATCAGTTT
+    10921 TTTCAATTCC GGTGATATTC TCATTTTAGC CATTTATTAT TTCCTTCCTC TTTTCTACAG
+    10981 TATTTAAAGA TACCCCAAGA AGCTAATTAT AACAAGACGA ACTCCAATTC ACTGTTCCTT
+    11041 GCATTCTAAA ACCTTAAATA CCAGAAAACA GCTTTTTCAA AGTTGTTTTC AAAGTTGGCG
+    11101 TATAACATAG TATCGACGGA GCCGATTTTG AAACCGCGGT GATCACAGGC AGCAACGCTC
+    11161 TGTCATCGTT ACAATCAACA TGCTACCCTC CGCGAGATCA TCCGTGTTTC AAACCCGGCA
+    11221 GCTTAGTTGC CGTTCTTCCG AATAGCATCG GTAACATGAG CAAAGTCTGC CGCCTTACAA
+    11281 CGGCTCTCCC GCTGACGCCG TCCCGGACTG ATGGGCTGCC TGTATCGAGT GGTGATTTTG
+    11341 TGCCGAGCTG CCGGTCGGGG AGCTGTTGGC TGGCTGG
+//
