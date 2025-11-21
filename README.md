@@ -9,10 +9,48 @@ This repository gathers the scripts that I have used to explore the genetic basi
 SNP calling and filtering were performed as described in Feurtey et al., 2023 [[WW_PopGen](https://github.com/afeurtey/WW_PopGen?tab=readme-ov-file#data-preparation)].
 
 ## Step 2: Genome-host association mapping (GHA)
-We performed a genome-host association (GHA) study based on GWAS using the host cultivar as a phenotype with a “one-versus-all” approach. We implemented a categorical GWAS by comparing strains sampled from a given wheat cultivar (phenotype 1) versus strains from the other 11 cultivars (phenotype 0). To avoid unbalanced sample sizes, each given group of samples (e.g. 64 strains from the cultivar Arina) was compared to an equal number of samples randomly selected from the rest of the collection. We repeated this random sub-sampling step 100 times. The phenotype matrix per cultivar can be found [[here](Matrix_host_phenotypes)].
 
-We applied this approach across all 12 hosts, generating a total of 1200 GWAS analyses run using [[vcf2gwas](https://github.com/frankvogt/vcf2gwas)], with a univariate linear mixed model Wald test. The script for GHA is available [[here](GHA)], with example files. Significant SNPs were corrected with the Bonferroni method by dividing 0.05 by the sum of unique variants analyzed.
+We performed a GHA study using a “one-versus-all” categorical GWAS framework.  
+For each host cultivar:
 
+- `1` = strains collected from the focal host  
+- `0` = strains collected from any of the other 11 hosts  
+
+To avoid unbalanced sample sizes and maintain statistical power, each host group (e.g., 64 strains from cultivar Arina) was compared to the **same number of randomly sampled strains** drawn from the remainder of the population.  
+This **random subsampling was performed 100 times per host**.
+
+The resulting phenotype matrices are available here:  
+[Matrix_host_phenotypes](Matrix_host_phenotypes)
+
+### GHA analyses using `vcf2gwas`
+
+Across 12 cultivars × 100 subsamples, a total of **1200 GWAS scans** were performed using  
+[`vcf2gwas`](https://github.com/frankvogt/vcf2gwas) with a univariate LMM (GEMMA).
+
+#### Script used to run GHA
+
+```bash
+vcf=data/vcf/filtered_dataset.vcf.gz
+input=data/phenotypes/<host_name>/
+
+for subsample_file in ${input}*.csv
+do
+    phenotypes=$(basename ${subsample_file})
+    output=$(basename ${subsample_file%.csv})
+
+    echo "Running GHA for: ${phenotypes}"
+
+    vcf2gwas -v ${vcf} \
+             -pf ${input}${phenotypes} \
+             -ap \
+             -lmm \
+             -nl \
+             -np \
+             -o ${input}${output}/
+done
+```
+
+### visualization GHA
 The script for GHA visualization can be found [[here](GHA)].
 
 ## Functional validation of GHA candidate genes
