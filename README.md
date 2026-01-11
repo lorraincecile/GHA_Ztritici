@@ -49,8 +49,21 @@ do
              -o ${input}${output}/
 done
 ```
+### Optional controls and benchmarking
 
-### visualization GHA
+To support interpretation and robustness of GHA signals, we recommend the following controls when feasible:
+*Note:* GHA is designed to work with host-of-origin metadata and does not require host genotyping; these controls are optional and intended for benchmarking and interpretation.
+
+- **Empirical null (“mock labels”)**: permute cultivar labels while preserving group sizes and rerun GHA. This estimates background association rates under the same sampling structure.
+
+- **Within-cultivar split**: randomly split isolates from the same cultivar into two groups (phenotype 1 vs 0). Significant hits provide an estimate of background signal driven by sampling noise.
+
+- **Time-stratified runs** (if sufficient sampling per time point): rerun GHA within a single collection time point to assess sensitivity to temporal sampling.
+
+- **Positive controls (when available)**: include cultivars with well-characterized resistance genes / known major interactions to verify that expected loci can be recovered under a given study design.
+
+
+### Visualization GHA
 The script for GHA visualization can be found [[here](GHA)].
 
 ## Functional validation of GHA candidate genes
