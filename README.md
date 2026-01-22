@@ -49,19 +49,16 @@ do
              -o ${input}${output}/
 done
 ```
-### Optional controls and benchmarking
+### Negative-control GHA tests (mock and null)
 
-To support interpretation and robustness of GHA signals, we recommend the following controls when feasible:
-*Note:* GHA is designed to work with host-of-origin metadata and does not require host genotyping; these controls are optional and intended for benchmarking and interpretation.
+To empirically evaluate the tendency of the GHA workflow to produce false-positive host associations, we ran two negative-control analyses where group labels are randomized while keeping the genotype data, SNP filtering, covariates, and LMM-GWAS settings identical to the main analyses.
 
-- **Empirical null (“mock labels”)**: permute cultivar labels while preserving group sizes and rerun GHA. This estimates background association rates under the same sampling structure.
+- **Mock GHA (pseudo focal group vs re-sampled control group):** randomly select 80 isolates as a pseudo “focal host” group (independent of host-of-origin) and compare them to the remaining isolates. Repeat the full bootstrap GWAS procedure (100 iterations; resample the 80 isolates each time).  
+  **Outcome:** no SNP reached the Bonferroni threshold.
 
-- **Within-cultivar split**: randomly split isolates from the same cultivar into two groups (phenotype 1 vs 0). Significant hits provide an estimate of background signal driven by sampling noise.
-
-- **Time-stratified runs** (if sufficient sampling per time point): rerun GHA within a single collection time point to assess sensitivity to temporal sampling.
-
-- **Positive controls (when available)**: include cultivars with well-characterized resistance genes / known major interactions to verify that expected loci can be recovered under a given study design.
-
+- **Null GHA (random vs random):** randomly sample two groups of equal size (80 vs 80 isolates), independent of host-of-origin, and run GWAS with the same pipeline.  
+  **Outcome:** no SNP reached the Bonferroni threshold.
+  
 
 ### Visualization GHA
 The script for GHA visualization can be found [[here](GHA)].
