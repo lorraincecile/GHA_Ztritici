@@ -64,4 +64,6 @@ To empirically evaluate the tendency of the GHA workflow to produce false-positi
 The script for GHA visualization can be found [[here](GHA)].
 
 ## Functional validation of GHA candidate genes
+In this study, we prioritized **functional validation** of GHA candidates via a targeted deletion screen in *Z. tritici* as an empirical “positive control” for candidate relevance. More generally, we recommend that future applications of this pipeline also include at least one **a priori positive-control association** (e.g., a cultivar/host factor with a known genotype expected to map to a specific pathogen locus) alongside mock/null negative controls to benchmark sensitivity and interpretability.
+
 The plasmids maps used for *Z. tritici* transformations in Genebank format are available [[here](plasmids_maps)].
